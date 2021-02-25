@@ -1,0 +1,128 @@
+body{
+  background-image: linear-gradient(rgb(248, 247, 247), #111110, rgb(252, 248, 248));
+}
+
+@font-face {
+    font-family: 'Baskerville italic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('BASKE10.woff') format('woff');
+  }
+
+@font-face {
+    font-family: 'Baskerville regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('BASKE9.woff') format('woff');
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 6px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  li {
+    font-family: 'Baskerville italic';
+    font-size: 1rem;
+    display: inline;
+    padding:70px;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+  }
+  
+  a:visited {
+    color: rgb(82, 81, 81);
+  }
+
+  a:hover {
+    color:rgb(23, 27, 223) ;
+  }
+
+  h1{
+    font-family: 'Baskerville italic';
+    color: rgb(107, 106, 105);
+    text-align: center;
+    font-size: 6rem;
+    text-shadow: 2px 2px rgb(47, 0, 255);
+  }
+
+  .main{
+    color: rgb(9, 10, 10);
+    max-width: 62rem;
+    margin-top: 1rem;
+    margin-left: 7rem;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.note1{
+  font-family: 'Baskerville regular';
+  color: rgb(20, 23, 231);
+  font-size: 4rem;
+  position: relative;
+  margin-top: -12rem;
+  left: 70rem;
+  padding: 5px;
+  background-image: linear-gradient(rgb(51, 51, 51), rgb(250, 250, 245), rgb(56, 56, 56));
+  text-align: center;
+  width: 26rem;
+  height: 30rem;
+  overflow: scroll;
+  animation: mymove 5s;
+  border: 2px solid rgb(20, 23, 231);
+}
+
+@keyframes mymove {
+  50% {left: -100px;}
+}
+
+
+
+.main2{
+  color: rgb(207, 204, 199);
+  max-width: 36rem;
+  margin-top: -19rem;
+  margin-left: 32rem;
+  font-size: 1.5rem;
+  text-align: justify;
+  text-indent: 50px;
+}
+
+.note2{
+  font-family: 'Baskerville regular';
+  font-size: 4rem;
+  color: rgb(20, 23, 231);
+  position: relative;
+  margin-top: -23rem;
+  left: 59px;
+  padding: 7px;
+  background-image: linear-gradient(rgb(75, 74, 74), rgb(250, 250, 245), rgb(92, 91, 91));
+  text-align: center;
+  width: 26rem;
+  height: 36rem;
+  overflow: scroll;
+  animation: mymove 5s;
+  border: 2px solid rgb(20, 23, 231);
+}
+
+@keyframes mymove {
+  50% {left: -100px;}
+}
+
+
+.main3{
+  color: rgb(7, 7, 7);
+  max-width: 76rem;
+  margin-top: -13rem;
+  margin-left: 32rem;
+  font-size: 1.5rem;
+  text-align: justify;
+  text-indent: 50px;
+}

@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'Baskerville italic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('BASKE10.woff') format('woff');
+  }
+
+@font-face {
+    font-family: 'Baskerville regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('BASKE9.woff') format('woff');
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 6px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  li {
+    font-family: 'Baskerville italic';
+    font-size: 1rem;
+    display: inline;
+    padding:70px;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: rgb(155, 154, 153);
+  }
+  
+  a:visited {
+    color: rgb(155, 155, 155);
+  }
+
+  a:hover {
+    color:rgb(252, 250, 248) ;
+  }
+
+  h1{
+    font-family: 'Baskerville italic';
+    color: rgb(173, 173, 173);
+    text-align: center;
+    font-size: 6rem;
+    text-shadow: 2px 2px rgb(245, 245, 248);
+  }
+
+  .main{
+    color: rgb(255, 255, 255);
+    max-width:79rem;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    text-indent: 50px;
+    text-align: justify;
+    column-width: 300px;
+    animation: mymove1 3s;
+}
+
+@keyframes mymove1 {
+  50% {
+    column-width: 100px;
+  }
+}
+
+.main:hover{
+  text-shadow: 2px 2px 2px rgb(41, 6, 236);
+}
+
+.note{
+    font-family: 'Baskerville regular';
+    font-size: 3.5rem;
+    color: white;
+    position: relative;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 23px;
+    background-color: rgb(29, 5, 238);
+    text-align: center;
+    width: 82rem;
+    height: 10rem;
+    overflow: scroll;
+    animation: mymove 5s infinite;
+  }
+
+  @keyframes mymove {
+    50% {box-shadow: 10px 20px 30px rgb(246, 246, 248);}
+  }
+
+  .main2{
+    color: rgb(253, 251, 247);
+    max-width:80rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.main2:hover{
+  text-shadow: 2px 2px 2px rgb(41, 6, 236);
+}

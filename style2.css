@@ -1,0 +1,116 @@
+body{
+  background-image: linear-gradient(rgb(15, 15, 15), rgb(250, 250, 245), rgb(10, 10, 10));
+}
+
+@font-face {
+    font-family: 'Baskerville italic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('BASKE10.woff') format('woff');
+  }
+
+@font-face {
+    font-family: 'Baskerville regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('BASKE9.woff') format('woff');
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 6px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  li {
+    font-family: 'Baskerville italic';
+    font-size: 1rem;
+    display: inline;
+    padding:70px;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: rgb(248, 246, 244);
+  }
+  
+  a:visited {
+    color: rgb(252, 250, 248);
+  }
+
+  a:hover {
+    color:rgb(116, 115, 114) ;
+  }
+
+  h1{
+    font-family: 'Baskerville italic';
+    color: rgb(174, 175, 179);
+    text-align: center;
+    font-size: 6rem;
+    text-shadow: 2px 2px rgb(47, 0, 255);
+  }
+
+.header{
+    font-family: 'Baskerville regular';
+    font-size: 4rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2rem;
+    left: 0;
+    right: 0;
+    padding: 9px;
+    background-color: rgb(185, 184, 180);
+    text-align: center;
+    width: 70rem;
+    height: 15rem;
+    overflow: scroll;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {box-shadow: 10px 20px 30px blue;}
+}
+
+.main{
+    color: rgb(94, 130, 228);
+    max-width: 62rem;
+    margin-top: 21rem;
+    margin-left: 8rem;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-indent: 50px;
+    
+}
+
+.note1{
+    font-family: 'Baskerville regular';
+    font-size: 4rem;
+    position: relative;
+    margin-top: -28rem;
+    left: 71rem;
+    padding: 7px;
+    background-color: rgb(216, 216, 215);
+    text-align: center;
+    width: 26rem;
+    height: 26rem;
+    overflow: scroll;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {box-shadow: 10px 20px 30px blue;}
+}
+
+.main2{
+    color: rgb(131, 153, 211);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 62rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-indent: 50px;
+}

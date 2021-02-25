@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(156, 156, 156);
+}
+
+@font-face {
+    font-family: 'Baskerville italic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('BASKE10.woff') format('woff');
+  }
+
+@font-face {
+    font-family: 'Baskerville regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('BASKE9.woff') format('woff');
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 6px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  li {
+    font-family: 'Baskerville italic';
+    font-size: 1rem;
+    display: inline;
+    padding:70px;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: rgb(15, 49, 247);
+  }
+  
+  a:visited {
+    color: rgb(6, 21, 243);
+  }
+
+  a:hover {
+    color:rgb(255, 255, 255) ;
+  }
+
+  h1{
+    font-family: 'Baskerville italic';
+    color: rgb(10, 54, 250);
+    text-align: center;
+    font-size: 6rem;
+    text-shadow: 2px 2px rgb(245, 245, 248);
+    animation: mymove1 5s;
+  }
+
+  @keyframes mymove1 {
+    50% {font-size: 140px;}
+  }
+
+  .main{
+    color: rgb(253, 252, 251);
+    max-width: 72rem;
+    margin-top: -3rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    text-indent: 50px;
+    text-align: justify;
+    text-shadow: 1px 1px rgb(2, 2, 241);
+    animation: mymove 5s;
+}
+
+@keyframes mymove {
+  50% {text-indent: 200px;}
+}
+
+.main2{
+  color: rgb(255, 254, 254);
+  max-width: 80rem;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.5rem;
+  text-indent: 50px;
+  text-align: justify;
+  text-shadow: 1px 1px rgb(2, 2, 241);
+}
+
+.note{
+  font-family: 'Baskerville regular';
+  font-size: 3rem;
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  background-color: rgb(92, 92, 91);
+  text-align: center;
+  width: 84rem;
+  height: 12rem;
+  overflow: scroll;
+  transition: background-color 2s ease-out 100ms
+}
+
+.note:hover{
+    background-color: #2d09fc;
+    color: white;
+}

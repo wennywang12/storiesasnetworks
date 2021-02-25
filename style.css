@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    src: url('BaskervilleBoldBT.woff') format('woff');
+  }
+
+
+.number{
+    margin-top: -20rem;
+    margin-bottom: -20rem;
+    font-family: 'Baskerville';
+    font-size: 16rem;
+    color: white;
+    letter-spacing: 15px;
+    text-align: center;
+    
+}
+
+.III1{
+    margin-top: -23rem;
+    letter-spacing: -16px;
+}
+
+.III2{
+    margin-top: -23rem;
+    letter-spacing: -28px;
+}
+
+.IV1{
+    margin-top: -23rem;
+    letter-spacing: -40px;
+}
+
+.V1{
+    margin-top: -23rem;
+    letter-spacing: -40px;
+}
+
+.VI1{
+    margin-top: -23rem;
+    letter-spacing: -40px;
+}
+
+#title{
+    color: white;
+    font-family: 'Baskerville';
+    font-size: 3rem;
+    text-shadow: 2px 2px rgb(47, 0, 255);
+}
+
+#author{
+    color: white;
+    font-family: 'Baskerville';
+    font-size: 2rem;
+    text-shadow: 2px 2px rgb(47, 0, 255);
+}
+
+.scroll{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    left: 0;
+    right: 0;
+    padding: 60px;
+    background-image: linear-gradient(rgb(15, 15, 15), rgb(250, 250, 245), rgb(10, 10, 10));
+    text-align: center;
+    width: 30rem;
+    height: 70rem;
+    overflow: scroll;
+}
+
+.scrolltext{
+    font-family: 'Baskerville';
+    font-size: 3rem;
+    color: rgb(154, 163, 243);
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: rgb(249, 250, 249);
+  }
+
+  a:hover {
+    color: rgb(33, 30, 235);
+  }
+  
+
+ 
