@@ -109,3 +109,37 @@ body{
     background-color: #2d09fc;
     color: white;
 }
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) {
+
+  ul{
+    margin: -75px;
+    padding: 57px;
+  }
+
+  li{
+    padding:22px;
+    margin-top: 1rem;
+    display: inline-block;
+  }
+
+  h1{
+    font-size: 4rem;
+  }
+
+.main{
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.main2{
+  font-size: 1rem;
+}
+
+.note{
+  font-size: 1.5rem;
+  width: 18rem;
+}
+}

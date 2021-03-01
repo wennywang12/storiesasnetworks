@@ -125,3 +125,54 @@ body{
   overflow: scroll;
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) {
+
+  ul{
+    margin: -75px;
+    padding: 57px;
+  }
+
+  li{
+    padding:22px;
+    margin-top: 1rem;
+    display: inline-block;
+  }
+
+  h1{
+    font-size: 4rem;
+  }
+
+  .main{
+    max-width: 19rem;
+    margin-top: -2rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+
+  .main2{
+    position: absolute;;
+    max-width: 19rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    font-size: 1rem;
+  }
+
+  .main3{
+    position: absolute;;
+    max-width: 20rem;
+    margin-top: 23rem;
+    margin-left: 2rem;
+    font-size: 1rem;
+  }
+
+  .note{
+    font-size: 1.5rem;
+    margin-top: 43rem;
+    left: 1px;
+    padding: 32px;
+    width: 18rem;
+    height: 6rem;
+  }
+
+}

@@ -113,3 +113,41 @@ body{
 .main2:hover{
   text-shadow: 2px 2px 2px rgb(41, 6, 236);
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) {
+
+  ul{
+    margin: -75px;
+    padding: 57px;
+  }
+
+  li{
+    padding:22px;
+    margin-top: 1rem;
+    display: inline-block;
+  }
+
+  h1{
+    font-size: 4rem;
+  }
+
+  .main{
+    max-width: 21rem;
+    margin-bottom: 0rem;
+    font-size: 1rem;
+  }
+
+.note{
+  font-size: 1.5rem;
+  width: 19rem;
+    height: 8rem;
+}
+
+.main2{
+  max-width: 20rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+}

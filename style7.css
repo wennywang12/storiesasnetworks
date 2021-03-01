@@ -130,3 +130,63 @@ background: radial-gradient(circle, rgba(117,195,241,1) 0%, rgb(173, 194, 238) 4
     height: 36rem;
     overflow: scroll;
   }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) {
+
+  ul{
+    margin: -75px;
+    padding: 57px;
+  }
+
+  li{
+    padding:22px;
+    margin-top: 1rem;
+    display: inline-block;
+  }
+
+  h1{
+    font-size: 4rem;
+  }
+
+  .main{
+    max-width: 20rem;
+    font-size: 1rem;
+    text-shadow: 0.5px 0.5px rgb(245, 245, 245);
+  }
+
+.main2{
+  max-width: 21rem;
+  margin-top: 2rem;
+}
+
+.note{
+  font-size: 1rem;
+  position: absolute;
+  margin-top: 30rem;
+  margin-left: -9rem;
+  padding: 40px;
+  width: 18rem;
+    height: 16rem;
+}
+
+.note2{
+  font-size: 1rem;
+    position: absolute;
+    margin-top: 14.5rem;
+    left: -9rem;
+    padding: 34px;
+    width: 19rem;
+    height: 10rem;
+}
+
+.note3{
+  font-size: 1rem;
+    position: absolute;
+    margin-top: -0.5rem;
+    left: -8rem;
+    width: 15rem;
+    height: 9rem;
+}
+
+}

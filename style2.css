@@ -81,8 +81,7 @@ body{
     margin-left: 8rem;
     font-size: 1.5rem;
     text-align: justify;
-    text-indent: 50px;
-    
+    text-indent: 50px;  
 }
 
 .note1{
@@ -113,4 +112,52 @@ body{
     font-size: 1.5rem;
     text-align: justify;
     text-indent: 50px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) {
+
+  ul{
+    margin: -75px;
+    padding: 57px;
+  }
+
+  li{
+    padding:22px;
+    margin-top: 1rem;
+    display: inline-block;
+  }
+
+  h1{
+    font-size: 4rem;
+  }
+
+  .header{
+    font-size: 2rem;
+    width: 19rem;
+  }
+
+  .note1{
+    position: absolute;
+    font-size: 1.5rem;
+    margin-top: -35.5rem;
+    left: 0;
+    width: 13rem;
+    height: 5rem;
+  }
+
+  .main{
+    font-size: 0.9rem;
+    margin-top: 25rem;
+    margin-left: 2rem;
+    text-align: right;
+    
+  }
+
+  .main2{
+    max-width: 24rem;
+    margin-top: 0rem;
+    font-size: 1rem;
+    text-align: left;
+  }
 }
