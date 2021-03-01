@@ -161,14 +161,14 @@ body{
   .main3{
     position: absolute;;
     max-width: 20rem;
-    margin-top: 23rem;
+    margin-top: 24rem;
     margin-left: 2rem;
     font-size: 1rem;
   }
 
   .note{
     font-size: 1.5rem;
-    margin-top: 43rem;
+    margin-top: 45rem;
     left: 1px;
     padding: 32px;
     width: 18rem;
