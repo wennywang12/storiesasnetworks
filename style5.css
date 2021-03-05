@@ -70,8 +70,6 @@ body{
 
 .main:hover{
   animation: mymove 5s;
-  background-color: rgb(2, 238, 73);
-  color: rgb(248, 244, 244);
 }
 
 .main2{
@@ -88,11 +86,6 @@ body{
 }
 
 
-.main2:hover{
-  background-color: rgb(2, 238, 73);
-  color: rgb(248, 244, 244);
-}
-
 .main3{
   position: relative;
   color: blanchedalmond;
@@ -106,10 +99,11 @@ body{
     padding-right: 10px;
 }
 
-.main3:hover{
+.main:hover, .main3:hover, .main2:hover{
   background-color: rgb(2, 238, 73);
   color: rgb(248, 244, 244);
 }
+
 
 .note{
   font-family: 'Baskerville regular';

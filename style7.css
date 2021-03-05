@@ -167,7 +167,7 @@ background: radial-gradient(circle, rgba(117,195,241,1) 0%, rgb(173, 194, 238) 4
   margin-left: -9rem;
   padding: 40px;
   width: 18rem;
-    height: 16rem;
+  height: 16rem;
 }
 
 .note2{
@@ -181,7 +181,7 @@ background: radial-gradient(circle, rgba(117,195,241,1) 0%, rgb(173, 194, 238) 4
 }
 
 .note3{
-  font-size: 1rem;
+    font-size: 1rem;
     position: absolute;
     margin-top: -0.5rem;
     left: -8rem;

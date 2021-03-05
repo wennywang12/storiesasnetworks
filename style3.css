@@ -79,11 +79,6 @@ body{
   border: 2px solid rgb(20, 23, 231);
 }
 
-@keyframes mymove {
-  50% {left: -100px;}
-}
-
-
 
 .main2{
   color: rgb(207, 204, 199);
@@ -115,7 +110,6 @@ body{
 @keyframes mymove {
   50% {left: -100px;}
 }
-
 
 .main3{
   color: rgb(7, 7, 7);

@@ -34,19 +34,13 @@ body{
   }
 
 
-#title{
+.title{
     color: white;
     font-family: 'Baskerville';
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-shadow: 2px 2px rgb(47, 0, 255);
 }
 
-#author{
-    color: white;
-    font-family: 'Baskerville';
-    font-size: 2rem;
-    text-shadow: 2px 2px rgb(47, 0, 255);
-}
 
 .scroll{
     position: absolute;
@@ -98,13 +92,9 @@ body{
         font-size: 0.7rem;
     }
 
-    #title{
-        font-size: 1.5rem;
-    }
-
-    #author{
-        font-size: 0.9rem;
-    }
+  .title{
+      font-size: 0.5rem;
+  }
 
     a:hover {
         color: rgb(8, 8, 8);

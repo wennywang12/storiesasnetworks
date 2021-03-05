@@ -73,10 +73,6 @@ body{
   }
 }
 
-.main:hover{
-  text-shadow: 2px 2px 2px rgb(41, 6, 236);
-}
-
 .note{
     font-family: 'Baskerville regular';
     font-size: 3.5rem;
@@ -110,9 +106,10 @@ body{
     text-indent: 50px;
 }
 
-.main2:hover{
+.main:hover, .main2:hover{
   text-shadow: 2px 2px 2px rgb(41, 6, 236);
 }
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 767px) {
